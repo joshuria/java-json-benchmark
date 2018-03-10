@@ -65,18 +65,6 @@ The results here-below were computed on May the 10th, 2018 with the following li
 | tapestry    | 5.4.3   |
 | jsoniter    | 0.9.22  |
 
-[All graphs and sheets are available in this google doc. (Old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/edit?usp=sharing)
-
-### Deserialization performance
-
-![json deserialization performance (old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=746064058&format=image)
-
-[Raw JMH results here][jmh-results]
-
-### Serialization performance
-
-![json serialization performance (old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=1130150523&format=image)
-
 [Raw JMH results here][jmh-results]
 
 ### Benchmark configuration
@@ -139,4 +127,4 @@ find numerous examples in the commit history. For instance:
 
 Pull requests are welcome.
 
-[jmh-results]: /archive/raw-results-2017-05-21.md
+[jmh-results]: /archive/raw-results-2018-03-10.md
