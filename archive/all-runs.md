@@ -1,5 +1,32 @@
 Benchmark runs by date
 
+## 2018-03-10
+
+| Library     | Version |
+|-------------|---------|
+| jackson     | 2.9.4   |
+| genson      | 1.4     |
+| fastjson    | 1.2.46  |
+| gson        | 2.8.2   |
+| org.json    | 20180130   |
+| javax-json  | 1.1.2 |
+| json-io     | 4.10.0  |
+| flexjson    | 3.3     |
+| boon        | 0.34    |
+| json-smart  | 2.3     |
+| johnzon     | 1.1.7   |
+| logansquare | 1.3.7   |
+| dsl-json    | 1.6.4   |
+| simplejson  | 1.1.1   |
+| nanojson    | 1.2     |
+| jodd json   | 4.1.5   |
+| moshi       | 1.5.0   |
+| tapestry    | 5.4.3   |
+| jsoniter    | 0.9.22  |
+
+ * [raw-results-2018-03-10.md](/archive/raw-results-2018-03-10.md)
+
+
 ## 2017-05-21
 
 | Library     | Version |

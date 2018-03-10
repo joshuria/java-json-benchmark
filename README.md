@@ -41,41 +41,41 @@ This benchmark does NOT evaluate:
 
 The benchmarks are written with [JMH](http://openjdk.java.net/projects/code-tools/jmh/) and for Java 8.
 
-The results here-below were computed on May the 21st, 2017 with the following libraries and versions:
+The results here-below were computed on May the 10th, 2018 with the following libraries and versions:
 
 | Library     | Version |
 |-------------|---------|
-| jackson     | 2.8.8   |
+| jackson     | 2.9.4   |
 | genson      | 1.4     |
-| fastjson    | 1.2.32  |
-| gson        | 2.8.0   |
-| org.json    | 20090211   |
-| javax-json  | 1.0, 1.0.4 |
-| json-io     | 4.9.12  |
+| fastjson    | 1.2.46  |
+| gson        | 2.8.2   |
+| org.json    | 20180130   |
+| javax-json  | 1.1.2 |
+| json-io     | 4.10.0  |
 | flexjson    | 3.3     |
 | boon        | 0.34    |
 | json-smart  | 2.3     |
-| johnzon     | 1.1.0   |
+| johnzon     | 1.1.7   |
 | logansquare | 1.3.7   |
-| dsl-json    | 1.4.1   |
+| dsl-json    | 1.6.4   |
 | simplejson  | 1.1.1   |
 | nanojson    | 1.2     |
-| jodd json   | 3.8.5   |
+| jodd json   | 4.1.5   |
 | moshi       | 1.5.0   |
 | tapestry    | 5.4.3   |
-| jsoniter    | 0.9.11  |
+| jsoniter    | 0.9.22  |
 
-[All graphs and sheets are available in this google doc.](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/edit?usp=sharing)
+[All graphs and sheets are available in this google doc. (Old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/edit?usp=sharing)
 
 ### Deserialization performance
 
-![json deserialization performance](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=746064058&format=image)
+![json deserialization performance (old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=746064058&format=image)
 
 [Raw JMH results here][jmh-results]
 
 ### Serialization performance
 
-![json serialization performance](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=1130150523&format=image)
+![json serialization performance (old)](https://docs.google.com/spreadsheets/d/16GSfiTSRP2WKu3XxqNPIW_0KvZ2PezjFMHqTHrG-XZU/pubchart?oid=1130150523&format=image)
 
 [Raw JMH results here][jmh-results]
 
@@ -83,9 +83,9 @@ The results here-below were computed on May the 21st, 2017 with the following li
 
 #### JMH
 
-    # JMH version: 1.19
-    # VM version: JDK 1.8.0_121, VM 25.121-b13
-    # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/bin/java
+    # JMH version: 1.20
+    # VM version: JDK 1.8.0_162, VM 25.162-b12
+    # VM invoker: F:\sdk\Java\jdk1.8.0_162\jre\bin\java.exe
     # VM options: -XX:+AggressiveOpts -Xms2G -Xmx2G
     # Warmup: 5 iterations, 1 s each
     # Measurement: 10 iterations, 3 s each
@@ -95,14 +95,14 @@ The results here-below were computed on May the 21st, 2017 with the following li
 
 #### Hardware
 
-    Model Name: MacBook Pro
-    Processor Name: Intel Core i7
-    Processor Speed: 2.6 GHz
+    Model Name: Windows 10 x64 v1709
+    Processor Name: Intel Core i7-4770K
+    Processor Speed: 3.50 GHz
     Number of Processors: 1
     Total Number of Cores: 4
-    L2 Cache (per Core): 256 KB
-    L3 Cache: 6 MB
-    Memory: 16 GB
+    L2 Cache (per Core): 1 MB
+    L3 Cache: 8 MB
+    Memory: 32 GB
 
 ## Run
 

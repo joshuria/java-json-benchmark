@@ -5,9 +5,9 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.bluelinelabs.logansquare.LoganSquare;
 import com.github.fabienrenaud.jjb.JsonBench;
 import com.github.fabienrenaud.jjb.JsonUtils;
-import com.jsoniter.DecodingMode;
+import com.jsoniter.spi.DecodingMode;
 import com.jsoniter.JsonIterator;
-import com.jsoniter.annotation.JsoniterAnnotationSupport;
+//import com.jsoniter.annotation.JsoniterAnnotationSupport;
 import com.jsoniter.output.EncodingMode;
 import com.jsoniter.output.JsonStream;
 import okio.BufferedSink;
@@ -137,7 +137,7 @@ public class Serialization extends JsonBench {
     public Object jsoniter() throws Exception {
         JsonIterator.setMode(DecodingMode.DYNAMIC_MODE_AND_MATCH_FIELD_WITH_HASH);
         JsonStream.setMode(EncodingMode.DYNAMIC_MODE);
-        JsoniterAnnotationSupport.enable();
+        //JsoniterAnnotationSupport.enable();
 
         ByteArrayOutputStream baos = JsonUtils.byteArrayOutputStream();
         JsonStream.serialize(JSON_SOURCE.nextPojo(), baos);
